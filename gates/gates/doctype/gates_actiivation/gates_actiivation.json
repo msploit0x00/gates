@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-06 10:53:00.255698",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "get_member_info",
+  "column_break_3",
+  "main_member_id",
+  "date",
+  "section_break_6",
+  "activate_gates",
+  "members",
+  "branches_section_section",
+  "branch",
+  "status",
+  "column_break_12",
+  "start_date",
+  "end_time",
+  "expiration_date",
+  "section_break_16",
+  "student_available_course_section",
+  "get_available_courses",
+  "get_available__schedules",
+  "section_break_20",
+  "update_gates_activation"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "Customer\nStudent"
+  },
+  {
+   "fieldname": "get_member_info",
+   "fieldtype": "Button",
+   "label": "Get Member Info"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "main_member_id",
+   "fieldtype": "Dynamic Link",
+   "label": "Main member ID",
+   "options": "type"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "activate_gates",
+   "fieldtype": "Button",
+   "label": "Activate Gates"
+  },
+  {
+   "fieldname": "members",
+   "fieldtype": "Table",
+   "label": "Members",
+   "options": "member_lisr"
+  },
+  {
+   "fieldname": "branches_section_section",
+   "fieldtype": "Section Break",
+   "label": "Branches Section"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Branch"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nHold\nCancel"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start date"
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Date",
+   "label": "End Time"
+  },
+  {
+   "fieldname": "expiration_date",
+   "fieldtype": "Date",
+   "label": "Expiration Date"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "student_available_course_section",
+   "fieldtype": "Section Break",
+   "label": "Student available course"
+  },
+  {
+   "fieldname": "get_available_courses",
+   "fieldtype": "Button",
+   "label": "Get available courses"
+  },
+  {
+   "fieldname": "get_available__schedules",
+   "fieldtype": "Button",
+   "label": "Get available  schedules "
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "update_gates_activation",
+   "fieldtype": "Button",
+   "label": "Update Gates activation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-06 11:00:39.237780",
+ "modified_by": "Administrator",
+ "module": "Gates",
+ "name": "Gates Actiivation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

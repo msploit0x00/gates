@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-05 16:35:40.227735",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "card_number",
+  "pin",
+  "column_break_4",
+  "prof_pic",
+  "image"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "card_number",
+   "fieldtype": "Data",
+   "label": "Card Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "pin",
+   "fieldtype": "Data",
+   "label": "Pin",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Image"
+  },
+  {
+   "default": "<img src=\"\">",
+   "fieldname": "prof_pic",
+   "fieldtype": "HTML",
+   "label": "Prof Pic"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-08 10:49:58.994864",
+ "modified_by": "Administrator",
+ "module": "Gates",
+ "name": "Monitor",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
