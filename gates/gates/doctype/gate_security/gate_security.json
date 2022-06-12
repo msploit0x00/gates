@@ -1,0 +1,31 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-12 11:58:19.485589",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "security_member"
+ ],
+ "fields": [
+  {
+   "fieldname": "security_member",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Security Member",
+   "options": "User"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-12 12:14:33.513435",
+ "modified_by": "Administrator",
+ "module": "Gates",
+ "name": "Gate Security",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

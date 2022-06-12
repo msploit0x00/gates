@@ -105,13 +105,13 @@ app_license = "MIT"
 
 # Scheduled Tasks
 # ---------------
-scheduler_events = {
-    "cron":{
-        "*/10 * * * *":[
-            "gates.api.clean_records"
-        ]
-    }
- }
+# scheduler_events = {
+#     "cron":{
+#         "*/30 * * * *":[
+#             "gates.api.clean_records"
+#         ]
+#     }
+#  }
 # scheduler_events = {
 # 	"all": [
 # 		"gates.tasks.all"
