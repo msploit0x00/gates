@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class member_lisr(Document):
+class GateAttributes(Document):
 	pass

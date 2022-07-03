@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestGatesActiivation(unittest.TestCase):
+class TestGateAttributes(unittest.TestCase):
 	pass
