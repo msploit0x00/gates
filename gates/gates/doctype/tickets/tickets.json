@@ -7,7 +7,7 @@
  "engine": "InnoDB",
  "field_order": [
   "member_no",
-  "count",
+  "no_tickets",
   "generate",
   "tickets"
  ],
@@ -16,11 +16,6 @@
    "fieldname": "member_no",
    "fieldtype": "Data",
    "label": "Member No"
-  },
-  {
-   "fieldname": "count",
-   "fieldtype": "Data",
-   "label": "Count"
   },
   {
    "fieldname": "generate",
@@ -32,11 +27,16 @@
    "fieldtype": "Table",
    "label": "Tickets",
    "options": "Tickets QR"
+  },
+  {
+   "fieldname": "no_tickets",
+   "fieldtype": "Int",
+   "label": "No Tickets"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-07-26 16:15:37.925203",
+ "modified": "2022-07-26 16:46:12.050218",
  "modified_by": "Administrator",
  "module": "Gates",
  "name": "Tickets",
