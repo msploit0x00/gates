@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-07-26 15:56:06.718248",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member_no",
+  "count",
+  "generate",
+  "tickets"
+ ],
+ "fields": [
+  {
+   "fieldname": "member_no",
+   "fieldtype": "Data",
+   "label": "Member No"
+  },
+  {
+   "fieldname": "count",
+   "fieldtype": "Data",
+   "label": "Count"
+  },
+  {
+   "fieldname": "generate",
+   "fieldtype": "Button",
+   "label": "Generate"
+  },
+  {
+   "fieldname": "tickets",
+   "fieldtype": "Table",
+   "label": "Tickets",
+   "options": "Tickets QR"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-07-26 16:15:37.925203",
+ "modified_by": "Administrator",
+ "module": "Gates",
+ "name": "Tickets",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
