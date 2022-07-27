@@ -1,7 +1,7 @@
 {
  "category": "Modules",
  "charts": [],
- "creation": "2022-06-13 14:58:05.789244",
+ "creation": "2022-07-27 15:43:18.555847",
  "developer_mode_only": 0,
  "disable_user_customization": 0,
  "docstatus": 0,
@@ -11,20 +11,20 @@
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
- "label": "Monitor",
+ "label": "Gates Security",
  "links": [],
- "modified": "2022-06-13 15:00:35.565691",
- "modified_by": "Administrator",
+ "modified": "2022-07-27 15:46:29.818534",
+ "modified_by": "ahmed.m@datasofteg.com",
  "module": "Gates",
- "name": "Monitor",
- "owner": "Administrator",
+ "name": "Gates Security",
+ "owner": "ahmed.m@datasofteg.com",
  "pin_to_bottom": 0,
  "pin_to_top": 0,
  "shortcuts": [
   {
    "doc_view": "List",
-   "label": "Monitor",
-   "link_to": "Monitor",
+   "label": "Gate Attributes",
+   "link_to": "Gate Attributes",
    "type": "DocType"
   },
   {
@@ -37,6 +37,18 @@
    "doc_view": "List",
    "label": "ZK Devices",
    "link_to": "ZK Devices",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Monitor",
+   "link_to": "Monitor",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Tickets",
+   "link_to": "Tickets",
    "type": "DocType"
   }
  ]

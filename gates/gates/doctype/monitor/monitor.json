@@ -12,7 +12,9 @@
   "pin",
   "column_break_4",
   "prof_pic",
-  "image"
+  "image",
+  "section_break_8",
+  "family"
  ],
  "fields": [
   {
@@ -55,11 +57,21 @@
    "label": "Gate",
    "options": "Gate",
    "read_only": 1
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "family",
+   "fieldtype": "Table",
+   "label": "family",
+   "options": "Gates_Activation_table"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-12 12:19:52.487698",
+ "modified": "2022-07-27 16:43:53.443530",
  "modified_by": "Administrator",
  "module": "Gates",
  "name": "Monitor",

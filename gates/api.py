@@ -3,10 +3,20 @@ import datetime
 
 
 @frappe.whitelist()
-def add_member(pin, gate):
-    exist = frappe.db.exists("member_lisr", {"pin": pin})
+def get_family(name):
+    exist = frappe.db.exists("Gates_Activation_table", {"name1": name})
     if exist:
-        member = frappe.get_doc("member_lisr", {"pin": pin})
+        parent = frappe.get_doc("Gates_Activation_table", {
+                                "name1": name}).parent
+        return {"success": True, "message": parent}
+    return {"success": False, "message": "Couldn't find member check his name"}
+
+
+@frappe.whitelist()
+def add_member(pin, gate):
+    exist = frappe.db.exists("Gates_Activation_table", {"pin": pin})
+    if exist:
+        member = frappe.get_doc("Gates_Activation_table", {"pin": pin})
         gate_details = frappe.get_doc("Gate", gate)
 
         record = frappe.new_doc('Monitor')
