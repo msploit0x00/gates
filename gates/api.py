@@ -17,6 +17,7 @@ def add_member(pin, gate):
     exist = frappe.db.exists("Gates_Activation_table", {"pin": pin})
     if exist:
         member = frappe.get_doc("Gates_Activation_table", {"pin": pin})
+        print(member)
         gate_details = frappe.get_doc("Gate", gate)
 
         record = frappe.new_doc('Monitor')

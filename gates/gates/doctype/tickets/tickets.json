@@ -9,7 +9,8 @@
   "member_no",
   "no_tickets",
   "generate",
-  "tickets"
+  "tickets",
+  "amended_from"
  ],
  "fields": [
   {
@@ -32,11 +33,20 @@
    "fieldname": "no_tickets",
    "fieldtype": "Int",
    "label": "No Tickets"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Tickets",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-07-26 16:46:12.050218",
+ "modified": "2022-07-28 14:28:03.891350",
  "modified_by": "Administrator",
  "module": "Gates",
  "name": "Tickets",
