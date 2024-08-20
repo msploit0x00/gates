@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "creation": "2023-03-28 15:47:17.553374",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "insert",
+  "update",
+  "delete",
+  "column_break_4",
+  "insert_app",
+  "update_app",
+  "delete_app",
+  "section_break_8",
+  "insert_app1",
+  "update_app1",
+  "delete_app1"
+ ],
+ "fields": [
+  {
+   "fieldname": "insert",
+   "fieldtype": "Data",
+   "label": "Insert"
+  },
+  {
+   "fieldname": "update",
+   "fieldtype": "Data",
+   "label": "Update"
+  },
+  {
+   "fieldname": "delete",
+   "fieldtype": "Data",
+   "label": "Delete"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "insert_app",
+   "fieldtype": "Data",
+   "label": "Insert App"
+  },
+  {
+   "fieldname": "update_app",
+   "fieldtype": "Data",
+   "label": "Update App"
+  },
+  {
+   "fieldname": "delete_app",
+   "fieldtype": "Data",
+   "label": "Delete App"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "insert_app1",
+   "fieldtype": "Data",
+   "label": "App Insert"
+  },
+  {
+   "fieldname": "update_app1",
+   "fieldtype": "Data",
+   "label": "App Update"
+  },
+  {
+   "fieldname": "delete_app1",
+   "fieldtype": "Data",
+   "label": "App Delete"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-03-28 15:47:17.553374",
+ "modified_by": "Administrator",
+ "module": "Gates",
+ "name": "Hooks Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -22,8 +22,8 @@ def add_member(pin, gate):
 
         record = frappe.new_doc('Monitor')
         record.name1 = member.name1
-        record.card_number = member.card_number
-        record.image = member.image
+        record.card_number = member.card_no
+        record.image = member.img
         record.pin = member.pin
         record.gate = gate_details.gate_name
 

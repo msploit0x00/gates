@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "autoname": "format:Request-Log-{######}",
+ "creation": "2023-03-28 15:49:11.422401",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "posting_time",
+  "request",
+  "body",
+  "column_break_4",
+  "status_code",
+  "response"
+ ],
+ "fields": [
+  {
+   "default": "Now",
+   "fieldname": "posting_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Posting Time",
+   "read_only": 1
+  },
+  {
+   "default": "Now",
+   "fieldname": "request",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Request",
+   "read_only": 1
+  },
+  {
+   "default": "Now",
+   "fieldname": "body",
+   "fieldtype": "Code",
+   "in_list_view": 1,
+   "label": "Body",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Now",
+   "fieldname": "status_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Status Code",
+   "read_only": 1
+  },
+  {
+   "default": "Now",
+   "fieldname": "response",
+   "fieldtype": "Code",
+   "in_list_view": 1,
+   "label": "Response",
+   "read_only": 1
+  }
+ ],
+ "in_create": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-28 15:49:11.422401",
+ "modified_by": "Administrator",
+ "module": "Gates",
+ "name": "Request Logs",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

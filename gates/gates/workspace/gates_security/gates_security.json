@@ -13,8 +13,8 @@
  "is_standard": 1,
  "label": "Gates Security",
  "links": [],
- "modified": "2022-07-27 15:46:29.818534",
- "modified_by": "ahmed.m@datasofteg.com",
+ "modified": "2023-05-10 19:22:25.603006",
+ "modified_by": "Administrator",
  "module": "Gates",
  "name": "Gates Security",
  "owner": "ahmed.m@datasofteg.com",
@@ -49,6 +49,18 @@
    "doc_view": "List",
    "label": "Tickets",
    "link_to": "Tickets",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Hooks Settings",
+   "link_to": "Hooks Settings",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Request Logs",
+   "link_to": "Request Logs",
    "type": "DocType"
   }
  ]
